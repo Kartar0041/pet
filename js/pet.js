@@ -1,29 +1,17 @@
-
-$(document).ready(function() {
-
-/*Dropdown*/
-const optionMenu = document.querySelector(".select-menu"),
-  selectBtn = optionMenu.querySelector(".select-btn"),
-  options = optionMenu.querySelectorAll(".option"),
-  sBtn_text = optionMenu.querySelector(".sBtn-text");
-
-selectBtn.addEventListener("click", () =>
-  optionMenu.classList.toggle("active")
-);
-
-options.forEach((option) => {
-  option.addEventListener("click", () => {
-    let selectedOption = option.querySelector(".option-text").innerText;
-    sBtn_text.innerText = selectedOption;
-
-    optionMenu.classList.remove("active");
-  });
-});
+$(document).ready(function(){
 
 
+    $("#testimonial-slider").owlCarousel({
+        items:2,
+        itemsDesktop:[1000,2],
+        itemsDesktopSmall:[980,1],
+        itemsTablet:[768,1],
+        pagination:true,
+        navigation:true,
+        navigationText:["<",">"],
+        autoPlay:true
+    });
 
 
-});
-
-
-
+    
+}); 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Account</title>
+		<link rel="stylesheet" type="text/css" href="css/pet.css">
+			<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" />
+			<link rel="stylesheet" type="text/css" href="https://intl-tel-input.com/node_modules/intl-tel-input/build/js/intlTelInput.js?1549804213570">
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+			<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+			<script type="text/javascript" src="js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+			<script type="text/javascript" src="js/popper.min.js"></script>
+			<script type="text/javascript" src="js/pet.js"></script>
+			<link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+			<script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+	</head>
+	<body>
+
+		<!-- left section starts -->
+		<section class="main-left">
+			<div class="large">
+				<div class="col-sm-4 q1">
+					<p class="p1"><img class="i1" src="image/cr2.png"></p>
+					<p class="p2">Lorem Ipsum is simply dumm text of
+					the printing and typesetting.</p>
+					<p class="p3"><img src="image/cr1.png"></p>
+				</div>
+				<div class="col-sm-8 q2">
+					<div class="z1">
+						<p class="p4">Create Account</p>
+						<div class= "b1">
+							<button><img src="image/google.png">Sign Up with Google</button><button><img src="image/facebook.png">Sign Up with Facebook</button>
+						</div>	
+						<h3>- OR -</h3>
+						<form>
+							<input type="text" placeholder="Full Name">
+						    <input name="phone" type="text" id="phone"/> 
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</body>
+	<script type="text/javascript">
+		var input = document.querySelector("#phone");
+window.intlTelInput(input, {
+  separateDialCode: true
+});
+	</script>
+</html>

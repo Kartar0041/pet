@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contact</title>
+			<link rel="stylesheet" type="text/css" href="css/pet.css">
+			<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" />
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+			<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+			<script type="text/javascript" src="js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+			<script type="text/javascript" src="js/popper.min.js"></script>
+			<script type="text/javascript" src="js/pet.js"></script>
+			
+	</head>
+	<body>
+		<!-- header section starts -->
+		<section class="header">
+			<div class="container">
+				<div class="user">
+					<div class="col-sm-4 q1">
+						<a href="#" target="main"><img src="image/h1.png"></a>
+					</div>
+					<div class="col-sm-4 q2">
+						<ul>
+							<li><a href="#" target="main">About us</a></li>
+							<li><a href="#" target="main">Products</a></li>
+							<li><a href="#" target="main">Contact</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4 q3">
+						<ul>
+							<li><a href="#" target="main"><i class="fa-thin fa-magnifying-glass"></i></a></li>
+							<li><a href="#" target="main"><i class="fa-light fa-user"></i><span>LOG IN</span></a></li>
+							<button><i class="fa-solid fa-bag-shopping"></i>CART</button>
+						</ul>						
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- contact section starts -->
+
+
+		<section class="raj">
+			<div class="container">
+				<div class="m1">
+					<div class="col-sm-6 q1">
+						<p class="p1">Contact us</p>
+						<p class="p2">We love hearing from you, our Shop customers. Please contact us and we will make sure to get back to you as soon as we possibly can.</p>
+						<form>
+							<label>Your Name<span>*</span></label><br>
+							<input type="text" placeholder="Your Name"><br>
+							<label>Email</label><br>
+							<input type="text" placeholder="Email Here"><br>
+							<textarea id="33" rows="5" cols="50">feedback</textarea><br>
+							<button>submit<i class="fa-thin fa-angle-right"></i></button> 
+					</form>
+					</div>
+				<div class="col-sm-6 q2">
+					<img src="image/dogph.png">
+				</div>
+			</div>
+			</div>
+		</section>
+
+		<!-- footer section -->
+			<section class="eight">
+			<div class="container">
+				<div class="f1">
+					<div class="col-sm-4 q1">
+						<img src="image/h1.png">
+						<p class="p1">Follow on social</p>
+						<p class="p2"><a href="#" target="main"><img src="image/fb.png"></a><a href="#" target="main"><img src="image/insta.png"></a></p>
+					</div>
+					<div class="col-sm-4 q1">
+						<p class="p2">Our Services</p>
+						<p class="p2">Shipping</p>
+						<p class="p2">FAQ</p>
+						<p class="p2">Contact</p>
+					</div>
+					<div class="col-sm-4 q1">
+						<p class="p3">Boarding & Day care</p>
+						<p class="p4">(616)-459-8622</p>
+						<p class="p5">2125  Howard Street ,Grand Rapids, MI  Michigan</p>
+					</div>
+				</div>
+				<div class="q3">
+					<p class="p1"> © all rights reserved &  design  with love by bharat</p>
+				</div>
+			</div>
+		</section>
+
+	</body>
+	<script type="text/javascript">
+		
+var countryData = window.intlTelInputGlobals.getCountryData(),
+  input = document.querySelector("#phone"),
+  addressDropdown = document.querySelector("#address-country");
+
+var iti = window.intlTelInput(input, {
+  hiddenInput: "full_phone",
+  utilsScript: "https://intl-tel-input.com/node_modules/intl-tel-input/build/js/utils.js?1549804213570" 
+});
+
+for (var i = 0; i < countryData.length; i++) {
+  var country = countryData[i];
+  var optionNode = document.createElement("option");
+  optionNode.value = country.iso2;
+  var textNode = document.createTextNode(country.name);
+  optionNode.appendChild(textNode);
+  addressDropdown.appendChild(optionNode);
+}
+
+addressDropdown.value = iti.getSelectedCountryData().iso2;
+
+input.addEventListener('countrychange', function(e) {
+  addressDropdown.value = iti.getSelectedCountryData().iso2;
+});
+
+addressDropdown.addEventListener('change', function() {
+  iti.setCountry(this.value);
+});
+	</script>
+</html>
