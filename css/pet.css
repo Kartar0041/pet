@@ -347,5 +347,57 @@ body {
 
 .main-left .q1 .p3 img {position: relative; left: 100px; top: 15px; }
 
-.main-left .q2{float: left;}
-.main-left .q2 .z1{float: left; width: 100%;}
+.main-left .q2{float: left; padding-top: 50px;}
+.main-left .q2 .z1{float: left; width: 100%; text-align: center;}
+.main-left .q2 .z1 .p4{font-family: 'Exo 2'; font-style: normal; font-weight: 700; font-size: 36px; line-height: 43px; text-align: center; color: #000000;}
+.main-left .q2 .z1 .b1{float: left; width: 100%;}
+.main-left .q2 .z1 .b1 button{background: #FFFFFF; border: 1px solid #35CCED; border-radius: 10px; font-family: 'Lexend Deca'; font-style: normal; font-weight: 300; font-size: 18px; line-height: 22px; padding: 7px 15px; margin-top: 25px; margin-bottom:25px; text-align: center; color: #000000;} 
+.main-left .q2 .z1 .b1 .bb1{float: left; margin-left: 150px;}
+.main-left .q2 .z1 .b1 .bb2{float: right; margin-right: 150px;}
+.main-left .q2 .z1 h3{font-family: 'Lexend Deca'; font-style: normal; font-weight: 400; font-size: 18px; line-height: 22px; text-align: center; color: #C1C1C1; margin-bottom: 20px;}
+.main-left .q2 .z1 input{border-bottom: 1px solid #C1C1C1; border-left: none; border-right: none; border-top: none; width: 500px; margin-bottom: 30px;}
+.iti {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.main-left .q2 .z1 .in1{ width: 20px;}
+.main-left .q2 .z1 label {padding-right: 290px; font-family: 'Rubik'; font-style: normal; font-weight: 400; font-size: 13px; line-height: 26px; color: #555555;}
+.main-left .q2 .z1 span{font-family: 'Rubik'; font-style: normal; font-weight: 500; font-size: 13px; line-height: 26px; color: #000000;}
+.main-left .q2 .z1 .but1{font-family: 'Exo 2'; font-style: normal; font-weight: 600; font-size: 16px; line-height: 19px; background: #000000; border-radius: 5px; padding: 7px 185px; color: #FFFFFF;}
+.main-left .q2 .z1 .p5{font-family: 'Exo 2'; font-style: normal; font-weight: 300; font-size: 13px; line-height: 16px; text-align: center; padding-top: 10px; color: #606060;}
+
+
+
+/*////////////////////error page starts\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.error{float: left; width: 100%;}
+.error .photo{float: left; width: 100%;}
+.error .photo .p1{text-align: center;padding-top: 80px; padding-bottom: 80px;}
+.error .photo .p1 img{max-width: 100%;}
+
+/*/////////////////////////////wishlist\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+.wish{float: left; width: 100%;}
+.wish .q1{float: left; width: 100%; padding-top: 30px;}
+.wish .q1 .p1{font-family: 'Exo 2'; font-style: normal; font-weight: 600; font-size: 30px; line-height: 36px; color: #000000;}
+.wish .q1 .p1 .s1{float: right;font-family: 'Lexend Deca'; font-style: normal; font-weight: 400; font-size: 20px; line-height: 25px; color: #000000; }
+
+.wish .q1 .p1 .s1 select{border: none;}
+
+/*----list section starts----*/
+
+.list{float: left;width: 100%;}
+.list .q1{float: left; width: 100%; border: 0.5px solid #000000; padding: 10px; position: relative; margin-top: 0px; margin-bottom:20px;}
+.list .q1 .a1{float: left;}
+.list .q1 .a1 img{max-width: 100%;}
+.list .q1 .a2{float: left;}
+
+.list .q1 .p1{font-family: 'Lexend Deca'; font-style: normal; font-weight: 500; font-size: 30px; line-height: 44px; padding-right: 5px; letter-spacing: 0.02em; color: #000000;}
+.list .q1 .s1{font-family: 'Lexend Deca'; font-style: normal; font-weight: 500; font-size: 30px; line-height: 44px; letter-spacing: 0.02em; margin-left: 7px; padding-left: 7px; border-left: 3px solid #000; color: #000000;}
+.list .q1 .s2{color: #EA6A12; border-radius: 1px; padding-left: 20px; font-size: 20px;}
+.list .q1 .p2{font-family: 'Rubik'; font-style: normal; font-weight: 400; font-size: 12px; line-height: 14px; letter-spacing: 0.02em; color: #999999;}
+.list .q1 .p3{font-family: 'Lexend Deca'; font-style: normal; font-weight: 700; font-size: 25px; line-height: 31px; color: #EAAE54;margin-bottom: 0px;}
+.list .q1 .s3 {width: 50px; height: 50px; font-size: 30px; background: #FFFFFF; border: 0.5px solid #E3E3E7; box-shadow: 0px 2px 8px rgba(69, 69, 69, 0.15); border-radius: 5px; padding: 4px 10px; position: absolute; top: 10px; right: 18px; }
+
